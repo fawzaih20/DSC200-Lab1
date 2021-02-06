@@ -2,7 +2,10 @@
 title: "Lab 01 - Hello R"
 author: "Fawzaih"
 date: "1/27/2021"
-output: html_document
+output: 
+  html_document: 
+    fig_width: 15
+    fig_height: 13
 ---
 
 University ID:2201000429
