@@ -15,7 +15,21 @@ University ID:2201000429
 library(tidyverse) 
 library(datasauRus)
 ```
+```{r load-packages, message=FALSE}
+ head(datasaurus_dozen)
+```
 
+```{r load-packages, message=FALSE}
+summary(datasaurus_dozen)
+```
+
+```{r load-packages, message=FALSE}
+View(datasaurus_dozen)
+```
+
+```{r load-packages, message=FALSE}
+ datasaurus_dozen %>%count(dataset) %>%print(13)
+```
 
 ### Lab Exercise
 ```{r}
